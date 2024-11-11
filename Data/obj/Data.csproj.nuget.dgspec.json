@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\Data.csproj": {}
+    "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\Data.csproj": {
+    "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\Data.csproj",
         "projectName": "SubHero.Data",
-        "projectPath": "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\josh2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\obj\\",
+        "outputPath": "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josh2\\AppData\\Roaming\\NuGet\\NuGet.Config",

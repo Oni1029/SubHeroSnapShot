@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iZmf4/iW2Qs=",
+  "dgSpecHash": "Nbk3XrJFv3Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josh2\\source\\repos\\sub-hero-Oni1029\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\josh2\\Source\\Repos\\SubHeroSnapShot\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josh2\\.nuget\\packages\\ksu.cs.codeanalyzers\\1.0.3.4\\ksu.cs.codeanalyzers.1.0.3.4.nupkg.sha512"
   ],

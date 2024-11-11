@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="SubHero.PointOfSale.EditChipsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SubHero.PointOfSale"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Resources>
+
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <local:BasicInfoMenuItemControl Grid.Column="0" Grid.Row="0"/>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock FontSize="20" Margin="0,0,10,0">Chip Flavor Options:</TextBlock>
+                <ComboBox MaxHeight="40" Width="100" MaxWidth="200" ItemsSource="{Binding Source={StaticResource chipFlavors}}" SelectedItem="{Binding Path=Flavor}" />
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</UserControl>
